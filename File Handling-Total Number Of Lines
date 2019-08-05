@@ -1,0 +1,6 @@
+n=0
+with open("E:\\file1.txt","r") as f:
+#print(k.read())
+    for line in f:
+        n +=1
+print(n)    

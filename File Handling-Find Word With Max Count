@@ -1,0 +1,6 @@
+from collections import Counter
+c=Counter()
+for i in open("E:\\file1.txt","r"):
+    for w in i.split():
+        c[w]+=1
+print(c)    

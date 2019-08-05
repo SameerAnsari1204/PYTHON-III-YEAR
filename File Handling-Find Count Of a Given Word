@@ -1,0 +1,14 @@
+word=input()
+k = 0
+f=open("E:\\file1.txt","r")
+for line in f:
+    word=line.split()
+    print(word)
+    for i in word:
+        if(i==word):
+            k+=1
+print(k)                
+
+    
+    
+
